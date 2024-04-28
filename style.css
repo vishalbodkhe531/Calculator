@@ -5,6 +5,7 @@
   font-family: Calibri, 'Trebuchet MS', sans-serif;
 }
 
+
 body {
   background-color: rgb(0, 0, 0);
 }
@@ -31,7 +32,7 @@ body {
   padding: 3%;
   height: 3rem;
   font-size: 1.30rem;
-  width: 100%;
+  width: 90%;
   margin: 11% 0px;
   text-align: end;
 }
@@ -40,13 +41,12 @@ body {
   width: 19%;
   height: 3rem;
   cursor: pointer;
-  /* padding: 1px; */
   border-radius: 50%;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-weight: bold;
   font-size: 1.03rem;
-  margin: 1% 2.40%;
+  margin: 1% 1%;
 }
 
 .container .oprator{
@@ -54,14 +54,6 @@ body {
   color: rgb(0, 0, 0);
 }
 
-h2{
-  margin-top: 1rem;
-  text-align: center;
-  color: #fff;
-  text-shadow: 2px 2px 10px rgb(244, 244, 244),
-  4px 4px 10px rgb(244, 244, 244)
-  ;
-}
 .orbit {
   height: 100%;
   width: 100%;
