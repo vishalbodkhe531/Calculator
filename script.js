@@ -17,6 +17,7 @@ Array.from(btns).forEach((btn) => {
 
     if (btn.innerHTML === "=") {
       input.value = eval(input.value);
+      str = input.value
       voiceGenerat(`Answer is ${input.value}`);
     }
     
@@ -34,7 +35,6 @@ Array.from(btns).forEach((btn) => {
     
     else if (
       firstValue == "*" ||
-      firstValue == "-" ||
       firstValue == "+" ||
       firstValue == "/" ||
       firstValue == "%"
